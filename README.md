@@ -1,2 +1,2 @@
 # CE302
-Elemenetos de Prog Est (Teste)
+Elementos de Prog Est (Teste)
