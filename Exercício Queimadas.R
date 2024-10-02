@@ -21,3 +21,23 @@ head(Queimadas)
 str(Queimadas)
 dim(Queimadas)
 write.csv(Queimadas, file = "Fire Watch Data/Dataset_FireWatch_Brazil_2024.csv", row.names = FALSE)
+
+
+head(Queimadas, n=9)
+head(Queimadas, n=3)
+
+#Quantas observações temos?
+
+nrow(Queimadas)
+  
+#Quantas variáveis temos?
+
+ncol(Queimadas)
+
+summary(Queimadas)
+str(Queimadas)
+unique(Queimadas$bioma)
+Queimadas$bioma = factor(Queimadas$bioma)
+Queimadas$bioma 
+nlevels(Queimadas$bioma)
+levels(Queimadas$bioma)
