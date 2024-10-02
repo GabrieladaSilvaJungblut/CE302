@@ -56,4 +56,81 @@ is.finite(1/0) # Verifica se é Finito
 
 "R" == "r" # Comparação de strings
 "a" < "b" # Ordem Alfanumérica
+<<<<<<< HEAD
 "1" < "2" # Ordem Alfanumérica
+=======
+"1" < "2" # Ordem Alfanumérica
+
+vetor_numerico <- c(1,2,3,4,5)
+vetor_numerico
+
+sequencia_1_5 <- seq(1:5)
+sequencia_1_5
+sequencia_10_100 <- seq(from = 10,
+                        to = 100, 
+                        by = 5)
+sequencia_10_100
+sequencia_10_100[3:8]
+
+vetor_numerico[1]
+vetor_numerico[3]
+vetor_numerico[2:4]
+
+vetor_caracteres <- c("maçã", "banana", "laranja")
+
+numeros <- c(1, 2, 3, 4, 5)
+numeros
+letras <- c("a", "b", "c", "d", "e")
+letras
+logicos <- c(TRUE, FALSE, TRUE, FALSE)
+logicos
+## Coerção
+vetor <- c(numeros, letras, logicos)
+vetor
+
+# Acessa o primeiro elemento
+numeros[1] 
+# Acessa o terceiro elemento
+letras[3] 
+# Acessa o segundo elemento
+logicos[2] 
+# Acessa o quinto elemento
+vetor[5] 
+# Acessa o segundo ao quarto elemento
+vetor[2:4] 
+
+# Operações aritméticas com vetores
+vetor1 <- c(1, 2, 3)
+vetor2 <- c(4, 5, 6)
+
+# Soma 
+soma_vetores <- vetor1 + vetor2
+soma_vetores
+# Subtração
+subtracao_vetores <- vetor1 - vetor2
+subtracao_vetores
+# Multiplicação
+multiplicacao_vetores <- vetor1 * vetor2
+multiplicacao_vetores
+# Divisão
+divisao_vetores <- vetor1 / vetor2
+divisao_vetores
+# Exponenciação 
+exponenciacao_numero <- vetor1^2  
+exponenciacao_numero
+# Módulo
+modulo_numero <- vetor1 %% 3 
+modulo_numero
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 1586abb (Aula - revert cred)
