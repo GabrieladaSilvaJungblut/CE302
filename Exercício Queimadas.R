@@ -41,3 +41,4 @@ Queimadas$bioma = factor(Queimadas$bioma)
 Queimadas$bioma 
 nlevels(Queimadas$bioma)
 levels(Queimadas$bioma)
+
